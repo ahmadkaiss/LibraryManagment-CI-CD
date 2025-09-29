@@ -12,7 +12,7 @@ RUN pip install --upgrade pip
 RUN pip install pytest
 
 #install other dependencies in requirements.txt
-COPY requirements.txt .
+COPY requirments.txt .
 RUN pip install -r requirments.txt
 
 # Default command to run tests
